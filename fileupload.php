@@ -12,7 +12,7 @@ if ($_FILES["fileUpload"]["size"] > 1000000000) {
 }
 
 if ($uploadGood == 0) {
-        header('http://files.icurriculum.co/fail.html', true, 200);
+        header('fail.html', true, 200);
 }
 
 else {
